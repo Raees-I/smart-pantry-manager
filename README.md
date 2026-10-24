@@ -59,7 +59,7 @@ We chose **SQLite** (via Android's native `SQLiteOpenHelper`) for the following 
 
 1. **Clone the Repository:**
    ```bash
-   git clone <YOUR_GITHUB_REPOSITORY_URL>
+   git clone https://github.com/Raees-I/smart-pantry-manager.git
    ```
 2. **Open in Android Studio:**
    - Open Android Studio (Ladybug / Jellyfish or newer).
