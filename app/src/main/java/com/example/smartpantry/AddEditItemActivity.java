@@ -76,9 +76,6 @@ public class AddEditItemActivity extends AppCompatActivity {
         if (name.isEmpty()) {
             nameInput.setError("Enter an ingredient name");
             valid = false;
-        } else if (!name.matches("[\\p{L}][\\p{L} \\-']*")) {
-            nameInput.setError("Use letters only (no numbers or symbols)");
-            valid = false;
         }
 
         double qty;
